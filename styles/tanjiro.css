@@ -1,0 +1,28 @@
+body {
+    color: #d10026;
+    background: #d10026;
+    background: linear-gradient(99deg, rgba(209, 0, 38, 1) 1%, rgba(255, 229, 0, 1) 50%, rgba(124, 83, 237, 1) 100%);
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: rgb(244, 238, 238);
+    justify-self: center;
+}
+
+.imagens {
+  display: flex; /* Torna as imagens elementos flexíveis */
+  justify-content: space-around; /* Distribui o espaço de forma igual entre as imagens */
+  align-items: center; /* Alinha as imagens verticalmente no centro */
+}
+
+.imagens img {
+  width: 450px; /* Define uma largura para cada imagem (ajustável) */
+  height: 450px; /* Mantém a proporção da imagem */
+  margin: 0 10px; /* Adiciona um pequeno espaço entre as imagens */
+  margin-top: 60px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
